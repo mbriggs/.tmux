@@ -1,0 +1,9 @@
+name: deploy-vinny
+root: ~/
+
+windows:
+  - fml:
+      layout: main-horizontal
+      panes:
+        - cd ~/src/vinny
+        - cd ~/src/notion/backend/apps/vinny

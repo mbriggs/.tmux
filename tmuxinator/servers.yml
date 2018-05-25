@@ -1,0 +1,11 @@
+# ~/.tmuxinator/servers.yml
+
+name: servers
+root: ~/
+
+windows:
+  - main:
+      layout: main-vertical
+      panes:
+        - ssh hub
+        - ssh customizer

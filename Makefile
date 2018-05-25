@@ -1,3 +1,9 @@
-install:
+install: install_tmux links
+
+install_tmux:
 	brew install tmux
-	ln -s ~/.tmux/tmux.conf ~/.tmux.conf
+
+links:
+	ln -sf ~/.tmux/tmux.conf ~/.tmux.conf
+	ln -sf ~/.tmux/tmuxinator ~/.config/tmuxinator
+

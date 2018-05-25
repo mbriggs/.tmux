@@ -1,0 +1,12 @@
+
+name: customizer
+root: ~/notion/ui/apps/customizer
+
+windows:
+  - editor:
+      layout: c8d1,246x68,0,0{160x68,0,0,0,85x68,161,0[85x34,161,0,1,85x16,161,35,2,85x16,161,52,3]}
+      panes:
+        - vim
+        - cd ~/notion/ui
+        - poi
+        - 
